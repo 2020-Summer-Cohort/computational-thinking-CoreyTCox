@@ -83,6 +83,35 @@ namespace ComputationalThinkingExercises
             Console.WriteLine("ARE THESE INTEGERS EQUAL?\n");
 
             // Enter your solution here
+            // Ask user for 1st integer
+            Console.WriteLine("Enter an integer: ");
+
+            // Save integer in variable
+            string firstInteger = Console.ReadLine();
+            //Console.WriteLine(firstInteger);
+
+            // Ask user for 2nd integer
+            Console.WriteLine("Enter another integer: ");
+
+            // Save integer in variable
+            string secondInteger = Console.ReadLine();
+           //Console.WriteLine(secondInteger);
+
+            // Compare integers
+            bool isEqual = firstInteger == secondInteger;
+            //Console.WriteLine(isEqual)
+
+            // If equal, print "Equal"
+            if (firstInteger == secondInteger)
+            {
+                Console.WriteLine("Equal");
+            }
+
+            // If not equal, print "Not Equal"
+            else
+            {
+                Console.WriteLine("Not Equal");
+            }
 
             Console.Write("Press enter to return to the Main Menu");
             Console.ReadLine();
